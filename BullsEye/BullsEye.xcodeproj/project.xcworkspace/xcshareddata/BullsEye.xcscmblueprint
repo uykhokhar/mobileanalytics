@@ -1,0 +1,37 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "55BFD5F290C43EFDCE14D9F1FBCA280A8DAAFCF1+++67191AF",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "55BFD5F290C43EFDCE14D9F1FBCA280A8DAAFCF1+++67191AF" : 9223372036854775807,
+    "55BFD5F290C43EFDCE14D9F1FBCA280A8DAAFCF1+++A5AFC41" : 9223372036854775807,
+    "55BFD5F290C43EFDCE14D9F1FBCA280A8DAAFCF1+++6A179EE" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "38ED2913-06AA-4996-952E-B7215283E8A1",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "55BFD5F290C43EFDCE14D9F1FBCA280A8DAAFCF1+++67191AF" : "mpcs51033-2017-spring-assignment-2-2-uykhokhar\/",
+    "55BFD5F290C43EFDCE14D9F1FBCA280A8DAAFCF1+++A5AFC41" : "",
+    "55BFD5F290C43EFDCE14D9F1FBCA280A8DAAFCF1+++6A179EE" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "BullsEye",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "BullsEye\/BullsEye.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/uchicago-cloud\/mpcs51033-2017-spring-assignment-2-2-uykhokhar.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "55BFD5F290C43EFDCE14D9F1FBCA280A8DAAFCF1+++67191AF"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/uchicago-cloud\/mpcs51033-2017-spring-assignment-2-2-uykhokhar.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "55BFD5F290C43EFDCE14D9F1FBCA280A8DAAFCF1+++6A179EE"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/uchicago-cloud\/mpcs51033-2017-spring-assignment-2-2-uykhokhar.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "55BFD5F290C43EFDCE14D9F1FBCA280A8DAAFCF1+++A5AFC41"
+    }
+  ]
+}
