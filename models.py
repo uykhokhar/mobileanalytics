@@ -19,17 +19,49 @@ class Session(ndb.Model):
 
     @classmethod
     def query_daily_unique(cls):
+        return cls.query_num_days(1)
+
+    @classmethod
+    def query_30day_unique(cls):
+        return cls.query_num_days(30)
+
+    @classmethod
+    def query_num_days(cls, num):
+        days_to_subtract = num
+        last_day = datetime.now() - timedelta(days=days_to_subtract)
+        query = cls.query(cls.date > last_day).fetch(projection=["user"])
+        users = []
+
+        for session in query:
+            if session.user not in users:
+                users.append(session.user)
+
+        return len(users)
+
+    @classmethod
+    def daily_sessions(cls):
         days_to_subtract = 1
         last_day = datetime.now() - timedelta(days=days_to_subtract)
-        print(last_day)
+        return cls.query(cls.date > last_day).count()
 
-        #query = cls.query().fetch()
-        #query = cls.query(cls.date > last_day).fetch()
+    @classmethod
+    def avg_session_length(cls):
+        days_to_subtract = 1
+        last_day = datetime.now() - timedelta(days=days_to_subtract)
         query = cls.query(cls.date > last_day).fetch()
-        #print("QUERY {}".format(query))
-        return query
+        count = cls.query(cls.date > last_day).count()
 
-        # new id's received
+        sum = 0
+        for item in query:
+            print("********** NEW SESSION ************")
+            print(item)
+            print(item.end)
+            print(item.start)
+            sum += (item.end - item.start).total_seconds()
+
+        return sum/count
+
+
 
 
 class Event(ndb.Model):
